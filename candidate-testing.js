@@ -21,7 +21,7 @@ candidateName = input.question("What's your name? ");
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 question = "Who was the first American woman in space? ";
-canidateAnswer = ""
+canidateAnswer = "";
 correctAnswer = "Sally Ride";
 
 canidateAnswer = input.question(question);
@@ -46,7 +46,7 @@ function gradeQuiz(candidateAnswers) {
 function runProgram() {
   askForName();
   // TODO 1.1c: Ask for candidate's name //
-  
+  console.log("Hello " + candidateName);
   askQuestion();
   gradeQuiz(this.candidateAnswers);
 }
