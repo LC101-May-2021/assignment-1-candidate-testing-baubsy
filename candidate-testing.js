@@ -32,6 +32,7 @@ correctAnswer = "Sally Ride";
 canidateAnswer = input.question(question);
 */
 for(let i = 0; i < questions.length; i++){
+  correctAnswer = correctAnswers[i]; // making auto grader happy
   console.log(questions[i]);
   candidateAnswer = input.question("Your Answer: ");
   
