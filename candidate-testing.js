@@ -25,12 +25,12 @@ candidateName = input.question("What's your name? ");
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-/*question = "Who was the first American woman in space? ";
+question = "Who was the first American woman in space? ";
 canidateAnswer = "";
 correctAnswer = "Sally Ride";
 
-canidateAnswer = input.question(question);
-*/
+//canidateAnswer = input.question(question);
+
 for(let i = 0; i < questions.length; i++){
   correctAnswer = correctAnswers[i]; // making auto grader happy
   question = questions[i];
