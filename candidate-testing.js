@@ -56,7 +56,7 @@ function gradeQuiz(candidateAnswers) {
   
   for(let j = 0; j < candidateAnswers.length;j++){
     //console.log("test");
-    if(candidateAnswers[j] === correctAnswers[j]){
+    if(candidateAnswers[j].toLowerCase() === correctAnswers[j].toLowerCase()){
       score++;
       
     }
