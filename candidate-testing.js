@@ -35,7 +35,7 @@ function askQuestion() {
 for(let i = 0; i < questions.length; i++){
   correctAnswer = correctAnswers[i]; // making auto grader happy
   question = questions[i];
-  console.log(questions[i]);
+  console.log(question);
   candidateAnswer = input.question("Your Answer: ");
   
   
