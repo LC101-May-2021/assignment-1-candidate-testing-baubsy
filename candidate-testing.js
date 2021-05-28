@@ -73,7 +73,7 @@ function runProgram() {
   // TODO 1.1c: Ask for candidate's name //
   console.log("Hello " + candidateName);
   askQuestion();
-  gradedScore = gradeQuiz(this.candidateAnswers);
+  gradedScore = gradeQuiz(candidateAnswers);
   console.log(`>>> Overall Grade: ${gradedScore}% (${score} of ${questions.length} responses correct) <<<`);
   if(gradedScore >= 80){
     console.log(">>> Status: PASSED <<<")
