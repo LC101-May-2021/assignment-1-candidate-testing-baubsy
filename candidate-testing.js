@@ -23,11 +23,12 @@ function askForName() {
 candidateName = input.question("What's your name? ");
 }
 
-function askQuestion() {
-  // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 question = "Who was the first American woman in space? ";
 canidateAnswer = "";
 correctAnswer = "Sally Ride";
+function askQuestion() {
+  // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
+
 
 //canidateAnswer = input.question(question);
 
