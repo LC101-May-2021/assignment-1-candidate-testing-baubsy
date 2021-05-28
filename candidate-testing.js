@@ -15,7 +15,7 @@ let questions = ["Who was the first American woman in space? ","True or false: 5
 
 let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
 let gradedScore = 0;
-let score = 0;
+
 
 
 function askForName() {
@@ -54,7 +54,7 @@ function gradeQuiz(candidateAnswers) {
     console.log("Wrong");
   }
   */
-  
+  let score = 0;
   for(let j = 0; j < candidateAnswers.length;j++){
     //console.log("test");
     if(candidateAnswers[j].toLowerCase() === correctAnswers[j].toLowerCase()){
