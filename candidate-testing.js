@@ -61,8 +61,7 @@ function gradeQuiz(candidateAnswers) {
       
     }
   };
-  let grade;
-  grade = score / 5 * 100
+  let grade = score / 5 * 100
   
 
   return grade;
