@@ -61,7 +61,7 @@ function gradeQuiz(candidateAnswers) {
       
     }
   };
-  let grade = score / 5 * 100
+  let grade = score / questions.length * 100
   
 
   return grade;
